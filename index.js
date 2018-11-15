@@ -6,9 +6,9 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of bitcore-lib-zelcash found. ' +
-      'Please make sure to require bitcore-lib-zelcash and check that submodules do' +
-      ' not also include their own bitcore-lib-zelcash dependency.';
+    var message = 'More than one instance of bitcore-lib-moonroomcash found. ' +
+      'Please make sure to require bitcore-lib-moonroomcash and check that submodules do' +
+      ' not also include their own bitcore-lib-moonroomcash dependency.';
     // TODO: put this back if we start versioning again
     //throw new Error(message);
   }
