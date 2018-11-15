@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-lib-zelcash",
+  "name": "bitcore-lib-moonroomcash",
   "version": "0.13.20",
-  "description": "A pure and powerful JavaScript ZelCash library.",
-  "author": "TheTrunk <tessjonesie@gmail.com>",
+  "description": "A pure and powerful JavaScript Moonroomcash library.",
+  "author": "moonroomcash <moonroomcash1@gmail.com>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -66,10 +66,15 @@
     {
       "name": "TheTrunk",
       "email": "tessjonesie@gmail.com"
-    }
+    },
+    {
+      "name": "Moonroomcash",
+      "email": "moonroomcash1@gmail.com"
+    },
   ],
   "keywords": [
     "zelcash",
+    "moonroomcash",
     "transaction",
     "address",
     "p2p",
@@ -86,7 +91,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheTrunk/bitcore-lib-zelcash.git"
+    "url": "https://github.com/moonroomcash/bitcore-lib-zelcash.git"
   },
   "browser": {
     "request": "browser-request"
